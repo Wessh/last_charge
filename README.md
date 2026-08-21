@@ -1,16 +1,54 @@
-# last_charge
+# Last charge
 
-A new Flutter project.
+Aplicativo mobile desenvolvido como projeto de estudo.
 
-## Getting Started
+## Problema
 
-This project is a starting point for a Flutter application.
+Dificuldade no monitoramento do carregamento do aparelho e vida útil da bateria.
 
-A few resources to get you started if this is your first Flutter project:
+## Solução
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Desenvolvimento de um aplicativo que facilita o monitoramento do carregamento, trazendo informações úteis como duração de carga, diferença de tempo desde a última carga e outras informações a mais.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Funcionalidades
+
+- Monitoramento da carga da bateria
+
+## Screenshots
+
+<p align="center">
+  <img src="./assets/screenshots/home_sem_permissao.jpg" alt="Tela inicial sem permissão de segundo plano" width="250"/>
+  <img src="./assets/screenshots/home_com_permissao.jpg" alt="Tela inicial com permissão de segundo plano" width="250"/>
+  <img src="./assets/screenshots/home_com_informacoes.jpg" alt="Tela inicial com informações de carregamento" width="250"/>
+</p>
+
+## Tecnologias
+
+- Flutter
+- Shared preferences
+
+## Como executar
+
+### Limpar os arquivos de builds
+
+ ```sh
+ flutter clean
+ ```
+
+### Baixar e resolver as dependências
+
+```sh
+flutter pub get
+```
+
+### Rodar o projeto no dispositivo
+
+```sh
+flutter run
+```
+
+### Requisitos
+
+- flutter
+- Android Studio
+- Android SDK
